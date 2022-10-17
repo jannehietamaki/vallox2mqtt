@@ -1,0 +1,16 @@
+{
+  "name": "vallox2mqtt",
+  "version": "1.0.0",
+  "description": "Expose Vallox ventilation unit to MQTT queue",
+  "scripts": {
+    "start": "node ./src/index.js"
+  },
+  "main": "src/index.js",
+  "keywords": [],
+  "author": "Janne Hietamäki",
+  "license": "BSD",
+  "dependencies": {
+    "@danielbayerlein/vallox-api": "^1.0.1",
+    "mqtt": "^4.3.7"
+  }
+}
